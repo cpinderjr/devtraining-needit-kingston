@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,all_tables.query_hints=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="58" text_index="true" type="collection">
+        <element label="Department" max_length="32" name="x_58872_needit_u_department_ref" reference="cmn_department" reference_qual="idBETWEEN1000@2000^EQ" reference_qual_condition="idBETWEEN1000@2000^EQ" type="reference"/>
+    </element>
+</database>
