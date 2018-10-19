@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Sets NeedIt tasks with a due date over the number of days ago in the autoCloseOverdue property.</description>
+        <label_cache>[{"name":"ca8fe253-bd56-41b0-81b3-935afa7cec49.table_name","label":"3.2.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"ca8fe253-bd56-41b0-81b3-935afa7cec49.record","label":"3.2.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record"},{"name":"6c286aea-f5cc-442d-9817-23f28b59bffa.item.number","label":"3➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"f4186e12-7a79-4d17-9dcf-738d47d1b859.calculated_date","label":"3.1➛calculated_date","reference_display":"calculated_date"},{"name":"e8e44be0-4ae2-4364-a276-99e804a02b11.value","label":"2➛property_value","reference_display":"property_value"},{"name":"6c286aea-f5cc-442d-9817-23f28b59bffa.item.due_date","label":"3➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"6c286aea-f5cc-442d-9817-23f28b59bffa.item","label":"3➛NeedIt Task Records Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records Record"},{"name":"d1c591eb-3828-44fb-bead-23d2e009d03f.Count","label":"1➛Count","reference_display":"Count"},{"name":"d1c591eb-3828-44fb-bead-23d2e009d03f.Table","label":"1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"d1c591eb-3828-44fb-bead-23d2e009d03f.Records","label":"1➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records"}]</label_cache>
+        <name>Check for  Overdue NeedIT Tasks</name>
+        <parent_flow display_value="Check for  Overdue NeedIT Tasks">7e7be6fcdbd92300ff7d5901cf9619b3</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 19:47:22</sys_created_on>
+        <sys_id>c9affe3cdb1d2300ff7d5901cf96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check for  Overdue NeedIT Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_c9affe3cdb1d2300ff7d5901cf96199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 19:47:22</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
